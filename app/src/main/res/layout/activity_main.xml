@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignMargins"
+    android:columnCount="2"
+    android:columnOrderPreserved="true"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:rowCount="2">
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:src="@drawable/cow"
+        android:clickable="true"
+        android:contentDescription="cosa"
+        android:onClick="onImageButtonClicked" />
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:src="@drawable/red"
+        android:clickable="true"
+        android:contentDescription="cosa"
+        android:onClick="onImageButtonClicked"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:src="@drawable/pumpkin"
+        android:clickable="true"
+        android:contentDescription="cosa"
+        android:onClick="onImageButtonClicked"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:src="@drawable/sus"
+        android:clickable="true"
+        android:contentDescription="cosa"
+        android:onClick="onImageButtonClicked" />
+
+</GridLayout>
